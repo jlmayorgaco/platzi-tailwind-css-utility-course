@@ -1,0 +1,19 @@
+{
+  "name": "platzi-tailwind-css-utility-course",
+  "version": "1.0.0",
+  "description": "Proyectos y ejercicios del curso \"Creación de Páginas Web con Tailwind CSS y Clases de Utilidad\" de Platzi. Aprende a construir interfaces modernas y responsivas usando clases de utilidad con Tailwind CSS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx @tailwindcss/cli -i tailwind.css -o output.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^4.1.8"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.8"
+  }
+}
